@@ -42,7 +42,7 @@ namespace GradeBook.UserInterfaces
             }
             var name = parts[1];
             var type = parts[2];
-            var weighted = false;
+            var weighted = bool.Parse(parts[3]);
             if (parts[3] == "true")
                 weighted = true;
 
